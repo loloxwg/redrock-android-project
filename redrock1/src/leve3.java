@@ -19,7 +19,7 @@ public class leve3 {
         System.out.println(meals3.number+"."+meals3.name+" "+meals3.price+"元");
         System.out.println(meals4.number+"."+meals4.name+" "+meals4.price+"元");
         System.out.println(meals5.number+"."+meals5.name+" "+meals5.price+"元");
-        restaurant.buyWhat();
+       // restaurant.buyWhat();
     }
 
 }
@@ -60,7 +60,7 @@ class Restaurant{
         Scanner sc = new Scanner(System.in);
         return sc.nextInt();
     }
-    public int buyMethod(int method){
+    public void buyMethod(int method){
         System.out.println("请选择支付方式：");
     }
 }
