@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Lv4 {
+public class Telescope {
     public static void main(String[] args) {
         System.out.println("请输入圆的半径:");
         Scanner sc = new Scanner(System.in);
