@@ -15,7 +15,7 @@ public class Hm4 {
             }
         }
         int data2 = NumberReverse.reverse(data);
-        for (int i = 2; i < data; i++) {
+        for (int i = 2; i < data2; i++) {
             if (data2 % i == 0) {
                 b++;
             }
@@ -33,11 +33,17 @@ public class Hm4 {
 class NumberReverse {
 
     static int reverse(int num) {
-        while (num != 0) {
+        if (num>9){
             int a = num % 10;
-            num = num / 10;
-
+            int b = num / 10;
+            int c = a * 10 + b;
+            num = c;
         }
+
+
+
+
+        System.out.println(num);
         return num;
     }
 
