@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Hm2 {
     public static void main(String[] args) {
-
+        Scanner in =new Scanner(System.in);
         while(true){
-            Scanner in =new Scanner(System.in);
+
             int x =in.nextInt();
             boolean isPrime=true;
             if (x==0){
