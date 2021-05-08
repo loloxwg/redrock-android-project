@@ -1,10 +1,6 @@
 package experiment3;
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 04d1f1be71d44854f76987549600cf055770d522
 import java.util.Scanner;
 
 public class Hm1 {
@@ -45,11 +41,9 @@ public class Hm1 {
         double temp;
         real = s1.realPart*s2.realPart;
         image = s1.realPart*s2.imaginaryPart+s1.imaginaryPart*s2.realPart;
-<<<<<<< HEAD
-        if (s1.imaginaryPart>0&&s2.imaginaryPart>0||s1.imaginaryPart<0&&s2.imaginaryPart<0){
-=======
+
         if (s1.imaginaryPart>0&&s2.imaginaryPart>0||s1.imaginaryPart<0&&s2.imaginaryPart<0){//对i*i进行正负判断
->>>>>>> 04d1f1be71d44854f76987549600cf055770d522
+
             temp = -(s1.imaginaryPart*s2.imaginaryPart);
         }else {
             temp = (s1.imaginaryPart*s2.imaginaryPart);
@@ -58,13 +52,4 @@ public class Hm1 {
         System.out.println("(a * b) = "+real+" + "+image+"i");
     }
 }
-<<<<<<< HEAD
 
-
-
-
-=======
-
-
-
->>>>>>> 04d1f1be71d44854f76987549600cf055770d522
