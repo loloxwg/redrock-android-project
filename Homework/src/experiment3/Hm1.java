@@ -42,7 +42,10 @@ public class Hm1 {
         real = s1.realPart*s2.realPart;
         image = s1.realPart*s2.imaginaryPart+s1.imaginaryPart*s2.realPart;
 
+
+
         if (s1.imaginaryPart>0&&s2.imaginaryPart>0||s1.imaginaryPart<0&&s2.imaginaryPart<0){//对i*i进行正负判断
+
 
             temp = -(s1.imaginaryPart*s2.imaginaryPart);
         }else {
