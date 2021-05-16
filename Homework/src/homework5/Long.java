@@ -1,3 +1,5 @@
+package homework5;
+
 public class Long {
 
     public static void main(String[] args) {
