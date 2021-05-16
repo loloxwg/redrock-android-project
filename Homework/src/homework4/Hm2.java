@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 
 class Circle {
+    double radius;
+
+    double area;
     public Circle() {
     }
     double r;
